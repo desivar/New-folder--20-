@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Star, BookOpen, Trophy, Gift, Users, Download, Calendar, CheckCircle, Award, Target } from 'lucide-react';
 import { books, challenges, studyIdeas, qaQuestions } from './data';
-import Sidebar from './components/sidebar/Sidebar';
-import Dashboard from './components/dashboard/Dashboard';
+
+
+import Sidebar from "./components/sidebar/Sidebar";
+import Dashboard from "./components/dashboard/Dashboard";
 import ReadingTracker from './components/reading-tracker/ReadingTracker';
 import Challenge from './components/challenges/Challenges';
 import QASection from './components/qa/QASection';
