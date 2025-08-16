@@ -8,7 +8,7 @@ import Challenge from './components/challenges/Challenges';
 import QASection from './components/qa/QASection.jsx:'
 import StudyIdeas from './components/study-ideas/StudyIdeas';
 import Printables from './components/printables/Printables';
-import Stickers from './components/stickers/Stickers';
+import Stickers from './components/stickers/Stickers.jsx';
 import Certificate from './components/common/Certificate';
 
 const totalChapters = books.reduce((sum, book) => sum + book.chapters, 0);
