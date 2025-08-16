@@ -5,10 +5,10 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Dashboard from "./components/dashboard/Dashboard";
 import ReadingTracker from './components/reading-tracker/ReadingTracker';
 import Challenge from './components/challenges/Challenges';
-import QASection from './components/qa/QASection.jsx';
+import QASection from './components/qa/QASection';
 import StudyIdeas from './components/study-ideas/StudyIdeas';
 import Printables from './components/printables/Printables';
-import Stickers from './components/stickers/Stickers.jsx';
+import Stickers from './components/stickers/Stickers';
 import Certificate from './components/common/Certificate';
 
 const totalChapters = books.reduce((sum, book) => sum + book.chapters, 0);
