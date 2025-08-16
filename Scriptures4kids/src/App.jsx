@@ -5,7 +5,7 @@ import Sidebar from "./components/sidebar/Sidebar";
 import Dashboard from "./components/dashboard/Dashboard";
 import ReadingTracker from './components/reading-tracker/ReadingTracker';
 import Challenge from './components/challenges/Challenges';
-import QASection from './components/qa/QASection';
+import QASection from './components/qaQASection';
 import StudyIdeas from './components/study-ideas/StudyIdeas';
 import Printables from './components/printables/Printables';
 import Stickers from './components/stickers/Stickers';
