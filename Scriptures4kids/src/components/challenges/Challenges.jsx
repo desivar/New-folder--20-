@@ -1,7 +1,7 @@
 // src/components/challenges/Challenges.jsx
 
 import React from 'react';
-import { users } from 'lucide-react'; // 'Users' is the correct icon name
+import { Users } from 'lucide-react'; // 'Users' is the correct icon name
 
 const Challenges = ({ challenges, selectedChallenge, setSelectedChallenge, userName, setUserName }) => {
   return (
